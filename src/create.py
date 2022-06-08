@@ -44,14 +44,16 @@ def create_sg(region,n,vpc):
 
 vpc_ids={}
 
+print("Creating Resources ..")
 
 for i in  regions:
     vc = create_vpc(i)
     vpc_ids[i]=vc
 
-print("Creating Resources ..")
+print("Created VPCs")
 
-for b in range (2):
+print("Creating Security Groups  ..")
+for b in range (50):
     for c in regions:
         create_sg(c,b,vpc_ids[c])
-print("Resources created !")
+print("Done")

@@ -67,11 +67,11 @@ def delete_all(region):
 
 
 
-
+print("Checking for Existing resources ..")
 
 if is_deleted(regions) == True :
     print("No Resources found , use run.sh -c instead!")
 else:
-    print("Cleaning resources ...")
+    print("Resources found! , Deleting ...")
     delete_all(regions)
     print("Done!")
