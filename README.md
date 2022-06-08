@@ -8,8 +8,8 @@ The scripts Create 50 AWS Security group across 3 regions[flag -c] and load them
 
 
 ## Install (Require Python3) :
-1 - Clone Repo
-2- cd demo_boto3_load
+1 - Clone Repo  
+2- cd demo_boto3_load  
 2 - pip install requirments.txt
 
 ## Run 
