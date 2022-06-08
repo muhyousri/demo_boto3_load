@@ -1,5 +1,6 @@
 import boto3
 
+regions = ["us-west-1","us-west-2","us-east-1"]
 
 def create_vpc(region):
     ec2 = boto3.resource('ec2',region_name=region)
@@ -42,7 +43,7 @@ def create_sg(region,n,vpc):
 )
 
 vpc_ids={}
-regions = ["us-west-1","us-west-2","us-east-1"]
+
 
 for i in  regions:
     vc = create_vpc(i)
