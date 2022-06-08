@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+pyvenv.cfg
 build/
 develop-eggs/
 dist/
@@ -41,7 +42,7 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
-[Bb]in
+[Bb]in/
 .nox/
 .coverage
 .coverage.*
