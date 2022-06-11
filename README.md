@@ -2,7 +2,7 @@
 
 Educational Demo to use Boto3 and reporting data to spreadsheets : 
 
-The scripts Create 50 AWS Security group across 3 regions[flag -c] and load them in an excel sheet[flag -l] 
+The scripts Creates 50 AWS Security groups across 3 regions and load them in an excel sheet
 
 
 
@@ -15,4 +15,6 @@ The scripts Create 50 AWS Security group across 3 regions[flag -c] and load them
 ## Run 
 
 `run.sh usage: [-l] load [-c] create [-d] delete`
+
+## DONT RUN ON A PRODUCTION ACCOUNT
 
